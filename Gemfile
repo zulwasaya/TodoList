@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# to login using social id
+gem 'omnipopulus'
+
+
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
