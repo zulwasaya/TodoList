@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 # to login using social id
-gem 'omnipopulus'
 
 gem 'rails', '3.2.13'
 
@@ -11,7 +10,7 @@ gem 'rails', '3.2.13'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  gem 'capybara'
 end
 group :production do
   gem 'pg'
@@ -46,3 +45,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-github'
+gem 'omniauth-linkedin'
+

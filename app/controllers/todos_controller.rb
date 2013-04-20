@@ -2,10 +2,16 @@ class TodosController < ApplicationController
   # GET /todos
   # GET /todos.json
   def index
-    @todos = Todo.all
+    unless session[:user_id]
+      redirect_to root_url
+      return
+    end
+#   @todos = Todo.all
+    # Get all Todo lists related to user where the primary key of User record is in session[:user_id]
+    @todos = User.find(session[:user_id]).todos
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html # index.html.old.erb
       format.json { render json: @todos }
     end
   end
@@ -24,7 +30,9 @@ class TodosController < ApplicationController
   # GET /todos/new
   # GET /todos/new.json
   def new
+
     @todo = Todo.new
+    @todo.user_id= session[:user_id]
 
     respond_to do |format|
       format.html # new.html.erb
@@ -41,6 +49,7 @@ class TodosController < ApplicationController
   # POST /todos.json
   def create
     @todo = Todo.new(params[:todo])
+    @todo.user_id= session[:user_id]
 
     respond_to do |format|
       if @todo.save
