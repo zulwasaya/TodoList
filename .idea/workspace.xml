@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dad1ab-c355-459f-9480-aecc6b75bca5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/new.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367196614490" ignored="false" />
+    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367197688640" ignored="false" />
     <file path="/Gemfile" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365154313608" ignored="false" />
     <file path="/omnipopulus.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365159063572" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/initializers/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365275975184" ignored="false" />
     <file path="/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366419709347" ignored="false" />
     <file path="/todos_controller.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366417504473" ignored="false" />
-    <file path="/sessions_controller.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366424886787" ignored="false" />
+    <file path="/sessions_controller.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367197901699" ignored="false" />
     <file path="/index.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366420535147" ignored="false" />
     <file path="/user.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366421132258" ignored="false" />
     <file path="/routes.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366424691165" ignored="false" />
@@ -50,7 +50,7 @@
       <file leaf-file-name="new.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="354" selection-end="354" vertical-scroll-proportion="-5.8846154">
+            <state line="9" column="18" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,7 +59,7 @@
       <file leaf-file-name="sessions_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="6" selection-start="685" selection-end="685" vertical-scroll-proportion="0.31365314">
+            <state line="9" column="45" selection-start="363" selection-end="363" vertical-scroll-proportion="0.28228784">
               <folding />
             </state>
           </provider>
@@ -147,12 +147,12 @@
         <option value="$PROJECT_DIR$/app/views/todos/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130404031711_create_todos.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/todo.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sessions.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
       </list>
     </option>
   </component>
@@ -431,22 +431,22 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IssueTracker/IssueTracker" />
     <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -692,6 +692,13 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -721,13 +728,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -895,7 +895,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33385336" sideWeight="0.59468436" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33931357" sideWeight="0.59468436" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1066,14 +1066,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="354" selection-end="354" vertical-scroll-proportion="-5.8846154">
+        <state line="9" column="18" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="685" selection-end="685" vertical-scroll-proportion="0.31365314">
+        <state line="9" column="45" selection-start="363" selection-end="363" vertical-scroll-proportion="0.28228784">
           <folding />
         </state>
       </provider>

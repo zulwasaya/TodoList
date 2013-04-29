@@ -7,6 +7,9 @@ class SessionsController < ApplicationController
 #    render :text => "<pre>"+request.env["omniauth.auth"].to_yaml+"</pre>"
 #    render :text => request.env['omniauth.auth'].inspect
 
+#   Logout user to force authorisation every time app is run
+    session[:user_id] = nil
+
 
     if session[:user_id]
 #    Means our user is signed in. Add the authorization to the user
@@ -32,7 +35,7 @@ class SessionsController < ApplicationController
 
   def destroy
     session[:user_id] = nil
-    render :text => "You've logged out!"
+    render :text => "You've succesfully logged out!"
   end
 
   def failure
