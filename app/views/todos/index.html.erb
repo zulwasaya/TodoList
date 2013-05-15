@@ -1,3 +1,6 @@
+<div data-role="header">
+
+
 <h1><%=if $name
          $name.capitalize
        end
@@ -6,29 +9,34 @@
 <h3>Logged in through <%=if $provider
                            $provider.capitalize end %></h3>
 
+  <!-- end .header --></div>
+<%= image_tag "DigiserveLogo5.png", :width => "65%", :style => 'display: block; margin-left: auto; margin-right: auto;' %>
+<div data-role="content">
+  <ul data-role="listview" data-filter="true">
 
-<table>
-  <tr>
-    <th>Subject</th>
-    <th>Priority</th>
-    <th>Description</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
 <% @todos.each do |todo| %>
-  <tr>
-    <td><%= todo.subject %></td>
-    <td><%= todo.priority %></td>
-    <td><%= todo.description %></td>
-    <td><%= link_to 'Show', todo %></td>
-    <td><%= link_to 'Edit', edit_todo_path(todo) %></td>
-    <td><%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
+    <li>
+
+    <h3><%= "Subject" %></h3><p><%= todo.subject %></p>
+    <h3><%= "Priority" %></h3><p><%= todo.priority %></p>
+    <h3><%= "Description" %></h3><p><%= todo.description %></p>
+
+
+    <p><%= link_to 'Show', todo %></p>
+    <p><%= link_to 'Edit', edit_todo_path(todo) %></p>
+    <p><%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+
+    </li>
+
 <% end %>
-</table>
+  </ul>
 
 <br />
 
 <%= link_to 'New Todo', new_todo_path %>
+  <!-- end .content --></div>
+<div data-role="footer">
+
+  <p>Digiserve Copyright 2013</p>
+  <!-- end .footer --></div>

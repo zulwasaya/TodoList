@@ -11,7 +11,7 @@ class TodosController < ApplicationController
     @todos = User.find(session[:user_id]).todos
 
     respond_to do |format|
-      format.html # index.html.old.erb
+      format.html # index.html.erb
       format.json { render json: @todos }
     end
   end
