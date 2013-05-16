@@ -6,7 +6,7 @@
 
 <%= image_tag "DigiserveLogo5.png", :width => "65%", :style => 'display: block; margin-left: auto; margin-right: auto;' %>
 
-  <div data-role="content">
+  <div data-role="content" >
 
 
     <p> To login click any one of the following links to authorize app.
@@ -16,12 +16,20 @@
       </br>
       </br>
     </p>
-      <ul data-role="listview" data-filter="true">
+    <ul data-role="listview"  data-filter="true" data-inset="true" data-theme="b" >
 
-      <%= link_to "Connect With Facebook", "/auth/facebook" %> </br></br>
-      <%= link_to "Connect With Twitter", "/auth/twitter" %> </br></br>
-      <%= link_to "Connect With Linkedin","/auth/linkedin" %></br></br>
+       <li>
+      <%= link_to "Connect With Facebook", "/auth/facebook" %>
+       </li>
+      <li>
+      <%= link_to "Connect With Twitter", "/auth/twitter" %>
+      </li>
+      <li>
+      <%= link_to "Connect With Linkedin","/auth/linkedin" %>
+      </li>
+      <li>
       <%= link_to "Connect With Github", "/auth/github"%>
+      </li>
 
 
       </ul>
