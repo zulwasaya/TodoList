@@ -1,10 +1,10 @@
 
 <div data-role="header">
-  <h1>Zul's Todolist Login</h1>
+  <h3>Zul's Todolist Login</h3>
 <!-- end .header --></div>
 
 
-<%= image_tag "DigiserveLogo5.png", :width => "65%", :style => 'display: block; margin-left: auto; margin-right: auto;' %>
+<%= image_tag "DigiserveLogo5.png", :width => "50%", :style => 'display: block; margin-left: auto; margin-right: auto;' %>
 
   <div data-role="content" >
 
@@ -16,23 +16,19 @@
       </br>
       </br>
     </p>
-    <ul data-role="listview"  data-filter="true" data-inset="true" data-theme="b" >
 
-       <li>
+    <p>
       <%= link_to "Connect With Facebook", "/auth/facebook" %>
-       </li>
-      <li>
+    </br>
       <%= link_to "Connect With Twitter", "/auth/twitter" %>
-      </li>
-      <li>
+    </br>
       <%= link_to "Connect With Linkedin","/auth/linkedin" %>
-      </li>
-      <li>
+    </br>
       <%= link_to "Connect With Github", "/auth/github"%>
-      </li>
+    </br>
+    </p>
 
 
-      </ul>
     <!-- end .content --></div>
 
   <div data-role="footer">
