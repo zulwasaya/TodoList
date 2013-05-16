@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dad1ab-c355-459f-9480-aecc6b75bca5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/new.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\RUBYMINE\CURRENT-PROJECTS\TodoList\TodoList\app\views\sessions\new.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.erb.new" />
+      <change type="MOVED" beforePath="E:\RUBYMINE\CURRENT-PROJECTS\TodoList\TodoList\app\views\sessions\new.erb.old" afterPath="$PROJECT_DIR$/app/views/sessions/new.erb" />
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +20,7 @@
     <file path="/routes.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204227411" ignored="false" />
     <file path="/Ruby Console" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368574025238" ignored="false" />
     <file path="/todo.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366429224718" ignored="false" />
-    <file path="/new.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368685851480" ignored="false" />
+    <file path="/new.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368686520439" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/routes.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204227411" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/app/views/sessions/new.erb.old" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204488204" ignored="false" />
     <file path="/new.erb.old" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204464519" ignored="false" />
@@ -48,19 +50,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb">
+      <file leaf-file-name="new.erb.new" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb.new">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="8" selection-start="811" selection-end="811" vertical-scroll-proportion="0.7152104">
-              <folding />
+            <state line="2" column="30" selection-start="56" selection-end="56" vertical-scroll-proportion="12.423077">
+              <folding>
+                <marker date="1368686735613" expanded="true" signature="24:83" placeholder="..." />
+                <marker date="1368686735613" expanded="true" signature="237:854" placeholder="..." />
+                <marker date="1368686735613" expanded="true" signature="248:508" placeholder="..." />
+                <marker date="1368686735613" expanded="true" signature="517:820" placeholder="..." />
+                <marker date="1368686735613" expanded="true" signature="882:950" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.erb.old" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb.old">
+      <file leaf-file-name="new.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+            <state line="5" column="18" selection-start="212" selection-end="212" vertical-scroll-proportion="0.055555556">
               <folding />
             </state>
           </provider>
@@ -158,8 +166,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="361" />
-    <option name="y" value="303" />
+    <option name="x" value="408" />
+    <option name="y" value="53" />
     <option name="width" value="1344" />
     <option name="height" value="736" />
   </component>
@@ -946,23 +954,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="361" y="303" width="1344" height="736" extended-state="0" />
+    <frame x="408" y="53" width="1344" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28627145" sideWeight="0.62126243" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28627145" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47508305" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37873754" sideWeight="0.9992175" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37873754" sideWeight="0.9992175" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1103,7 +1111,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/_form.html.erb">
@@ -1144,13 +1154,6 @@
         <state line="14" column="43" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb.old">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="4" selection-start="1214" selection-end="1214" vertical-scroll-proportion="-6.1153846">
@@ -1158,9 +1161,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb.new">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="56" selection-end="56" vertical-scroll-proportion="12.423077">
+          <folding>
+            <marker date="1368686735613" expanded="true" signature="24:83" placeholder="..." />
+            <marker date="1368686735613" expanded="true" signature="237:854" placeholder="..." />
+            <marker date="1368686735613" expanded="true" signature="248:508" placeholder="..." />
+            <marker date="1368686735613" expanded="true" signature="517:820" placeholder="..." />
+            <marker date="1368686735613" expanded="true" signature="882:950" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="8" selection-start="811" selection-end="811" vertical-scroll-proportion="0.7152104">
+        <state line="5" column="18" selection-start="212" selection-end="212" vertical-scroll-proportion="0.055555556">
           <folding />
         </state>
       </provider>

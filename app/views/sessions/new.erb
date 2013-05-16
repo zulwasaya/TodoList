@@ -1,38 +1,31 @@
 
-<div data-role="header">
-  <h3>Zul's Todolist Login</h3>
-<!-- end .header --></div>
-
-
-<%= image_tag "DigiserveLogo5.png", :width => "50%", :style => 'display: block; margin-left: auto; margin-right: auto;' %>
-
-  <div data-role="content" >
-
-
+<div class="container">
+  <div class="header"><a href="#"><img src="assets/DigiserveLogo5.png" width="360" height="121" alt="Logo" /></a>
+    <!-- end .header --></div>
+  <div class="content">
+    <h1>Zul's Todo Login</h1>
     <p> To login click any one of the following links to authorize app.
       </br>
-        Each authorization will result in a separate copy of database resulting in upto four different
+      Each authorization will result in a separate copy of database resulting in upto four different
       copies, one associated with each service.
       </br>
       </br>
     </p>
-
-    <p>
-      <%= link_to "Connect With Facebook", "/auth/facebook" %>
-    </br>
-      <%= link_to "Connect With Twitter", "/auth/twitter" %>
-    </br>
-      <%= link_to "Connect With Linkedin","/auth/linkedin" %>
-    </br>
-      <%= link_to "Connect With Github", "/auth/github"%>
-    </br>
+    <p> <a href="/auth/facebook">Connect With Facebook</a></br>
+      </br>
+      </br>
+      <a href="/auth/twitter">Connect With Twitter</a></br>
+      </br>
+      </br>
+      <a href="/auth/linkedin">Connect With Linkedin</a></br>
+      </br>
+      </br>
+      <a href="/auth/github">Connect With Github</a></br>
+      </br>
     </p>
 
-
     <!-- end .content --></div>
-
-  <div data-role="footer">
-
+  <div class="footer">
     <p>Digiserve Copyright 2013</p>
     <!-- end .footer --></div>
-
+  <!-- end .container --></div>
