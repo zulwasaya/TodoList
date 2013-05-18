@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todolist</title>
+
+</head>
+<body>
+
+<%= yield %>
+
+<div data-role="footer">
+
+  <p>Digiserve Copyright 2013</p>
+  <!-- end .footer --></div>
+</body>
+</html>
