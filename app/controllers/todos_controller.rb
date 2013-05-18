@@ -53,7 +53,10 @@ class TodosController < ApplicationController
 
     respond_to do |format|
       if @todo.save
-        format.html { redirect_to @todo, notice: 'Todo was successfully created.' }
+
+#        format.html { redirect_to @todo, notice: 'Todo was successfully created.' }
+# temp change from @todo to todos_url to fix problem with jquery and show
+        format.html { redirect_to todos_url, notice: 'Todo was successfully created.' }
         format.json { render json: @todo, status: :created, location: @todo }
       else
         format.html { render action: "new" }

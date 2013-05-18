@@ -1,6 +1,27 @@
-<h1>Editing todo</h1>
+
+<div data-role="header">
+
+
+  <h1><%=if $name
+           $name.capitalize
+         end
+  %> Todos Edit</h1>
+
+
+  <!-- end .header --></div>
+<%= image_tag "DigiserveLogo5.png", :width => "65%", :style => 'display: block; margin-left: auto; margin-right: auto;' %>
+<div data-role="content">
+  <ul data-role="listview"  data-inset="true" data-theme="a">
+
+
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @todo %> |
+<%= link_to 'Show', @todo %>  |
 <%= link_to 'Back', todos_path %>
+</ul>
+<!-- end .content --></div>
+<div data-role="footer">
+
+  <p>Digiserve Copyright 2013</p>
+  <!-- end .footer --></div>
