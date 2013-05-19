@@ -2,45 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dad1ab-c355-459f-9480-aecc6b75bca5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb.old" />
-      <change type="DELETED" beforePath="E:\RUBYMINE\CURRENT-PROJECTS\TodoList\TodoList\app\views\sessions\new.erb.new" afterPath="" />
-      <change type="DELETED" beforePath="E:\RUBYMINE\CURRENT-PROJECTS\TodoList\TodoList\app\views\todos\index.html.erb.bak" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todos/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/todos/edit.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/todos/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/new.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todos/new.html.erb" afterPath="$PROJECT_DIR$/app/views/todos/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/todos/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\RUBYMINE\CURRENT-PROJECTS\TodoList\TodoList\app\views\layouts\application.html.erb.bak" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MOVED" beforePath="E:\RUBYMINE\CURRENT-PROJECTS\TodoList\TodoList\app\views\sessions\new.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.erb.old" />
-      <change type="MOVED" beforePath="E:\RUBYMINE\CURRENT-PROJECTS\TodoList\TodoList\app\views\todos\index.html.erb.bak" afterPath="$PROJECT_DIR$/app/views/todos/index.html.erb.old" />
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368899818300" ignored="false" />
+    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368946120013" ignored="false" />
     <file path="/Gemfile" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365154313608" ignored="false" />
     <file path="/omnipopulus.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365159063572" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/initializers/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365275975184" ignored="false" />
     <file path="/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366419709347" ignored="false" />
     <file path="/todos_controller.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368894174475" ignored="false" />
     <file path="/sessions_controller.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368551015479" ignored="false" />
-    <file path="/index.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368682940634" ignored="false" />
+    <file path="/index.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368926156240" ignored="false" />
     <file path="/user.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366421132258" ignored="false" />
     <file path="/routes.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204227411" ignored="false" />
     <file path="/Ruby Console" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368574025238" ignored="false" />
     <file path="/todo.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366429224718" ignored="false" />
-    <file path="/new.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368901767304" ignored="false" />
+    <file path="/new.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368908064045" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/routes.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204227411" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/app/views/sessions/new.erb.old" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204488204" ignored="false" />
     <file path="/new.erb.old" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204464519" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/app/controllers/sessions_controller.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204612330" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/app/assets/stylesheets/sessions.css.scss" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204723184" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/app/views/sessions/new.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204918899" ignored="false" />
-    <file path="/application.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368893549840" ignored="false" />
+    <file path="/application.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368923734374" ignored="false" />
     <file path="/new - Copy.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368553472724" ignored="false" />
     <file path="/fragment.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368573794603" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/log/development.log" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368575890498" ignored="false" />
     <file path="/_form.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368727846226" ignored="false" />
-    <file path="/show.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368728983724" ignored="false" />
-    <file path="/edit.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368729309093" ignored="false" />
-    <file path="/new.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368729989690" ignored="false" />
+    <file path="/show.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368946849996" ignored="false" />
+    <file path="/edit.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368947020822" ignored="false" />
+    <file path="/new.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368943548517" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks/app/views/layouts/application.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368922536563" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks/app/views/sessions/new.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368924258929" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks/app/views/bookmarks/index.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368926159663" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks/app/views/bookmarks/edit.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368945477148" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks/app/views/bookmarks/new.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368945618524" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks/app/views/bookmarks/show.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368945838544" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks/app/views/bookmarks/searchform.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368946009389" ignored="false" />
+    <file path="/searchform.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368944153468" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks/app/views/bookmarks/sortform.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368946033743" ignored="false" />
+    <file path="/sortform.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368944352060" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,21 +68,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.erb.old" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb.old">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="13" selection-start="748" selection-end="805" vertical-scroll-proportion="-14.384615">
-              <folding>
-                <marker date="1368894898256" expanded="true" signature="23:891" placeholder="..." />
-                <marker date="1368894898256" expanded="true" signature="46:168" placeholder="..." />
-                <marker date="1368894898256" expanded="true" signature="192:858" placeholder="..." />
-                <marker date="1368894898256" expanded="true" signature="230:488" placeholder="..." />
-                <marker date="1368894898256" expanded="true" signature="496:825" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/todos/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,56 +77,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb.old" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb.old">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="87" selection-end="175" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1368894587041" expanded="true" signature="21:56" placeholder="..." />
-                <marker date="1368894587041" expanded="true" signature="28:56" placeholder="..." />
-                <marker date="1368894587041" expanded="true" signature="70:182" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb.old" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb.old">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="45" selection-start="753" selection-end="875" vertical-scroll-proportion="-9.807693">
-              <folding>
-                <marker date="1368894739487" expanded="true" signature="21:1519" placeholder="..." />
-                <marker date="1368894739487" expanded="true" signature="28:523" placeholder="..." />
-                <marker date="1368894739487" expanded="true" signature="548:751" placeholder="..." />
-                <marker date="1368894739487" expanded="true" signature="555:622" placeholder="..." />
-                <marker date="1368894739487" expanded="true" signature="556:607" placeholder="&lt;%=...%&gt;" />
-                <marker date="1368894739487" expanded="true" signature="559:604" placeholder="if ... end" />
-                <marker date="1368894739487" expanded="true" signature="628:721" placeholder="..." />
-                <marker date="1368894739487" expanded="true" signature="647:717" placeholder="&lt;%=...%&gt;" />
-                <marker date="1368894739487" expanded="true" signature="650:714" placeholder="if ... end" />
-                <marker date="1368894739487" expanded="true" signature="900:1518" placeholder="..." />
-                <marker date="1368894739487" expanded="true" signature="980:1487" placeholder="..." />
-                <marker date="1368894739487" expanded="true" signature="999:1426" placeholder="do ... end" />
-                <marker date="1368894739487" expanded="true" signature="1019:1208" placeholder="..." />
-                <marker date="1368894739487" expanded="true" signature="1217:1417" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="39" column="4" selection-start="843" selection-end="881" vertical-scroll-proportion="-9.884615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/todos/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="54" selection-start="163" selection-end="163" vertical-scroll-proportion="-5.8846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/todos/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.5804878">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/todos/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="11" selection-start="110" selection-end="195" vertical-scroll-proportion="-5.9615383">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="122" selection-start="207" selection-end="207" vertical-scroll-proportion="-0.20833333">
+            <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,7 +125,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="79" selection-start="525" selection-end="647" vertical-scroll-proportion="-7.8461537">
+            <state line="14" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,13 +162,13 @@
         <option value="$PROJECT_DIR$/log/development.log" />
         <option value="$PROJECT_DIR$/app/views/todos/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/todos_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/todos/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/todos/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/todos/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb.old" />
+        <option value="$PROJECT_DIR$/app/views/sessions/new.erb" />
         <option value="$PROJECT_DIR$/app/views/todos/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/sessions/new.erb" />
+        <option value="$PROJECT_DIR$/app/views/todos/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/todos/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/todos/new.html.erb" />
       </list>
     </option>
   </component>
@@ -197,10 +180,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="13" />
+    <option name="x" value="96" />
+    <option name="y" value="21" />
     <option name="width" value="1344" />
-    <option name="height" value="736" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -228,8 +211,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -484,6 +465,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,7 +474,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IssueTracker/IssueTracker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks" />
     <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
@@ -985,18 +968,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="13" width="1344" height="736" extended-state="0" />
+    <frame x="96" y="21" width="1344" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23166926" sideWeight="0.7990033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34087363" sideWeight="0.80099505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47508305" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20099668" sideWeight="0.9992175" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19900498" sideWeight="0.9992175" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1078,28 +1061,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/todos/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todos/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todos/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/422.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1112,13 +1073,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb.old">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="87" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1368894587041" expanded="true" signature="21:56" placeholder="..." />
-            <marker date="1368894587041" expanded="true" signature="28:56" placeholder="..." />
-            <marker date="1368894587041" expanded="true" signature="70:182" placeholder="..." />
-          </folding>
-        </state>
+        <state line="11" column="0" selection-start="87" selection-end="175" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
@@ -1141,58 +1096,61 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb.old">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="748" selection-end="805" vertical-scroll-proportion="-14.384615">
-          <folding>
-            <marker date="1368894898256" expanded="true" signature="23:891" placeholder="..." />
-            <marker date="1368894898256" expanded="true" signature="46:168" placeholder="..." />
-            <marker date="1368894898256" expanded="true" signature="192:858" placeholder="..." />
-            <marker date="1368894898256" expanded="true" signature="230:488" placeholder="..." />
-            <marker date="1368894898256" expanded="true" signature="496:825" placeholder="..." />
-          </folding>
-        </state>
+        <state line="22" column="13" selection-start="748" selection-end="805" vertical-scroll-proportion="-14.384615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb.old">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="753" selection-end="875" vertical-scroll-proportion="-9.807693">
-          <folding>
-            <marker date="1368894739487" expanded="true" signature="21:1519" placeholder="..." />
-            <marker date="1368894739487" expanded="true" signature="28:523" placeholder="..." />
-            <marker date="1368894739487" expanded="true" signature="548:751" placeholder="..." />
-            <marker date="1368894739487" expanded="true" signature="555:622" placeholder="..." />
-            <marker date="1368894739487" expanded="true" signature="556:607" placeholder="&lt;%=...%&gt;" />
-            <marker date="1368894739487" expanded="true" signature="559:604" placeholder="if ... end" />
-            <marker date="1368894739487" expanded="true" signature="628:721" placeholder="..." />
-            <marker date="1368894739487" expanded="true" signature="647:717" placeholder="&lt;%=...%&gt;" />
-            <marker date="1368894739487" expanded="true" signature="650:714" placeholder="if ... end" />
-            <marker date="1368894739487" expanded="true" signature="900:1518" placeholder="..." />
-            <marker date="1368894739487" expanded="true" signature="980:1487" placeholder="..." />
-            <marker date="1368894739487" expanded="true" signature="999:1426" placeholder="do ... end" />
-            <marker date="1368894739487" expanded="true" signature="1019:1208" placeholder="..." />
-            <marker date="1368894739487" expanded="true" signature="1217:1417" placeholder="..." />
-          </folding>
-        </state>
+        <state line="24" column="45" selection-start="753" selection-end="875" vertical-scroll-proportion="-9.807693" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/todos/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="79" selection-start="525" selection-end="647" vertical-scroll-proportion="-7.8461537">
+        <state line="29" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="122" selection-start="207" selection-end="207" vertical-scroll-proportion="-0.20833333">
+        <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todos/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="54" selection-start="163" selection-end="163" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="4" selection-start="843" selection-end="881" vertical-scroll-proportion="-9.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todos/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="110" selection-end="195" vertical-scroll-proportion="-5.9615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todos/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.5804878">
           <folding />
         </state>
       </provider>

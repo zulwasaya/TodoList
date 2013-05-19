@@ -8,9 +8,10 @@
          end
   %> Todos Show</h1>
 
-
+  <%= link_to 'Back', todos_path, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
+  <%= link_to 'Edit',  edit_todo_path(@todo), {"data-icon" =>"star", "class" => "ui-btn-right"} %>
   <!-- end .header --></div>
-<%= image_tag "DigiserveLogo5.png", :width => "65%", :style => 'display: block; margin-left: auto; margin-right: auto;' %>
+
 <div data-role="content">
   <ul data-role="listview"  data-inset="true" data-theme="a">
 
@@ -33,8 +34,7 @@
 </p>
 
 
-<%= link_to 'Edit', edit_todo_path(@todo) %> |
-<%= link_to 'Back', todos_path %>
+
 
 </ul>
   <!-- end .content --></div>
