@@ -10,33 +10,40 @@
 
 <h3>Logged in through <%=if $provider
                            $provider.capitalize end %></h3>
+  <%= link_to 'New Todo', new_todo_path, {"data-icon" =>"star", "class" => "ui-btn-right"}  %>
 
   <!-- end .header --></div>
 
-<div data-role="content">
+<div data-role="content" data-theme="b" data-transition= "flip" >
   <ul data-role="listview" data-filter="true" data-inset="true" data-theme="a">
 
 
 <% @todos.each do |todo| %>
     <li>
 
-    <h3><%= "Subject" %></h3><p><%= todo.subject %></p>
-    <h3><%= "Priority" %></h3><p><%= todo.priority %></p>
-    <h3><%= "Description" %></h3><p><%= todo.description %></p>
+    <h3><%= "Subject: " %><%= todo.subject %></h3>
+    <h3><%= "Priority: " %><%= todo.priority %></h3>
+    <h3><%= "Description: " %><%= todo.description %></h3>
     </li>
     <li>
-    <p><%= link_to 'Show', todo %></p>
-    <p><%= link_to 'Edit', edit_todo_path(todo) %></p>
-    <p><%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %></p>
 
+     <div class="ui-grid-c">
+       <div class="ui-block-a" data-role="button" data-theme="d">
+    <%= link_to 'Show', todo %>
+       </div>
+       <div class="ui-block-b" data-role="button" data-theme="d">
+    <%= link_to 'Edit', edit_todo_path(todo) %>
+       </div>
+       <div class="ui-block-c" data-role="button" data-theme="d">
+    <%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
+       </div>
+     </div>
     </li>
+
+
 
 <% end %>
 
-
-<br />
-
-<%= link_to 'New Todo', new_todo_path %>
   </ul>
 
   <!-- end .content --></div>

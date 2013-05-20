@@ -47,6 +47,7 @@
 <br />
 
 <%= link_to 'New Todo', new_todo_path %>
+
   </ul>
 
   <!-- end .content --></div>
