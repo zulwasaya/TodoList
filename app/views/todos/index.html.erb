@@ -28,16 +28,15 @@
 
 
 
-
-
+    <div data-role="button" data-inline="true" data-theme='c'>
     <%= link_to 'Show', todo %>
-
+    </div>
+    <div data-role="button" data-inline="true" data-theme='c'>
     <%= link_to 'Edit', edit_todo_path(todo)%>
-
-
+    </div>
+    <div data-role="button" data-inline="true" data-theme='c' >
     <%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
-
-
+    </div>
 
  </ul>
 
