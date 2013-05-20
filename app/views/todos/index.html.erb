@@ -25,25 +25,25 @@
     <h3><%= "Priority: " %><%= todo.priority %></h3>
     <h3><%= "Description: " %><%= todo.description %></h3>
     </li>
-    <li>
 
-     <div class="ui-grid-c">
-       <div class="ui-block-a" data-role="button" data-theme="d">
+
+
+
+
     <%= link_to 'Show', todo %>
-       </div>
-       <div class="ui-block-b" data-role="button" data-theme="d">
-    <%= link_to 'Edit', edit_todo_path(todo) %>
-       </div>
-       <div class="ui-block-c" data-role="button" data-theme="d">
-    <%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
-       </div>
-     </div>
-    </li>
 
+    <%= link_to 'Edit', edit_todo_path(todo)%>
+
+
+    <%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+
+
+ </ul>
 
 
 <% end %>
 
-  </ul>
+
 
   <!-- end .content --></div>
