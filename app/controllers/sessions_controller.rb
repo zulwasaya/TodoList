@@ -35,7 +35,9 @@ class SessionsController < ApplicationController
 
   def destroy
     session[:user_id] = nil
-    render :text => "You've succesfully logged out!"
+#    render :text => "You've succesfully logged out!"
+    redirect_to :controller =>'todos'
+
   end
 
   def failure
