@@ -1,11 +1,11 @@
 class TodosController < ApplicationController
+# Check that the user is logged in
+  before_filter :check_login_status!
+
   # GET /todos
   # GET /todos.json
   def index
-    unless session[:user_id]
-      redirect_to root_url
-      return
-    end
+
 #   @todos = Todo.all
     # Get all Todo lists related to user where the primary key of User record is in session[:user_id]
     @todos = User.find(session[:user_id]).todos

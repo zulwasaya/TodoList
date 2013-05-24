@@ -1,0 +1,55 @@
+
+</head>
+<div data-role="header">
+
+
+<p><%=if $name
+         $name.capitalize
+       end
+%> Todos List</p>
+
+<p>Logged in through <%=if $provider
+                           $provider.capitalize end %></p>
+
+
+  <%= link_to 'Logout', logout_path, {"data-icon" =>"back", "class" => "ui-btn-right"} %>
+
+  <!-- end .header --></div>
+
+<div data-role="button"  data-theme='e'>
+<%= link_to 'Create Todo', new_todo_path %>
+</div>
+
+<div data-role="content" data-theme="b" data-transition= "flip" >
+
+  <ul data-role="listview" data-filter="true" data-inset="true" data-theme="a">
+
+
+<% @todos.each do |todo| %>
+    <li>
+
+    <h3><%= "Subject: " %><%= todo.subject %></h3>
+    <h3><%= "Priority: " %><%= todo.priority %></h3>
+    <h3><%= "Description: " %><%= todo.description %></h3>
+    </li>
+
+
+    <li>
+
+    <div data-role="button" data-inline="true" data-theme='c'>
+    <%= link_to 'Show', todo %>
+    </div>
+    <div data-role="button" data-inline="true" data-theme='c'>
+    <%= link_to 'Edit', edit_todo_path(todo)%>
+    </div>
+    <div data-role="button" data-inline="true" data-theme='c' >
+    <%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+
+    </li>
+
+<% end %>
+ </ul>
+
+
+  <!-- end .content --></div>
