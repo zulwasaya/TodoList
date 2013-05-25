@@ -12,15 +12,30 @@
 </head>
 
 <body>
-<div data-role="page" id="page" >
+
    <%= image_tag "DigiserveLogo5.png", :width => "65%", :style => 'display: block; margin-left: auto; margin-right: auto;' %>
    <%= yield %>
 <div data-role="footer">
 
+  <div data-role="navbar" data-position="fixed" data-iconpos="top" >
+
+    <ul>
+
+      <li> <%= link_to 'Add', new_todo_path, "data-icon"=>"plus" %></li>
+
+
+      <li><%= link_to 'List All', todos_path, "data-icon"=>"refresh" %> </li>
+
+      <li> <a href="#"data-icon="info"> About</a></li>
+
+    </ul>
+
+  </div>
+
   <h4>Digiserve Copyright 2013</h4>
   <!-- end .footer --></div>
 
-  </div>
-</div>
+
+
 </body>
 </html>
