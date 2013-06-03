@@ -1,0 +1,35 @@
+
+
+<div data-role="header">
+
+
+
+  <h1> Show Todolist for <%= @todolist.task %></h1>
+
+  <%= link_to 'Back', @todolist.todo, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
+  <%= link_to 'Edit',  edit_todolist_path(@todolist), {"data-icon" =>"star", "class" => "ui-btn-right"} %>
+  <!-- end .header --></div>
+
+<div data-role="content" data-theme="e" data-transition= "flip">
+  <ul data-role="listview" data-filter="false" data-inset="true" data-theme="b">
+
+
+
+  <p id="notice"><%= notice %></p>
+
+<p>
+  <b>Task:</b>
+  <%= @todolist.task %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @todolist.priority %>
+</p>
+<p><b> Subject: </b>
+<%= link_to @todolist.todo.subject , @todolist.todo %> </p>
+
+ <li><%= link_to 'Delete', @todolist, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+</ul>
+<!-- end .content --></div>
+

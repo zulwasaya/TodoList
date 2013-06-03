@@ -15,26 +15,29 @@
 
    <%= image_tag "DigiserveLogo5.png", :width => "65%", :style => 'display: block; margin-left: auto; margin-right: auto;' %>
    <%= yield %>
-<div data-role="footer">
-
-  <div data-role="navbar" data-position="fixed" data-iconpos="top" >
-
-    <ul>
-
-      <li> <%= link_to 'Add', new_todo_path, "data-icon"=>"plus" %></li>
 
 
-      <li><%= link_to 'List All', todos_path, "data-icon"=>"refresh" %> </li>
+   <div data-role="footer">
 
-      <li> <a href="#"data-icon="info"> About</a></li>
+     <div data-role="navbar" data-position="fixed" data-iconpos="top" >
 
-    </ul>
+       <ul>
 
-  </div>
+         <li> <%= link_to 'Add Subject', new_todo_path, "data-icon"=>"plus" %></li>
 
-  <h4>Digiserve Copyright 2013</h4>
-  <!-- end .footer --></div>
 
+         <li><%= link_to 'List Subjects', todos_path, "data-icon"=>"refresh" %> </li>
+
+         <li><%= link_to 'Logout', logout_path, "data-icon" =>"back" %></li>
+
+         <li> <a href="#"data-icon="info"> About</a></li>
+
+       </ul>
+
+     </div>
+
+     <h4>Digiserve Copyright 2013</h4>
+     <!-- end .footer --></div>
 
 
 </body>

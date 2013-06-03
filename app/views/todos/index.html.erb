@@ -6,13 +6,13 @@
 <p><%=if $name
          $name.capitalize
        end
-%> Todos List</p>
+%> Todos Subject List</p>
 
 <p>Logged in through <%=if $provider
                            $provider.capitalize end %></p>
 
 
-  <%= link_to 'Logout', logout_path, {"data-icon" =>"back", "class" => "ui-btn-right"} %>
+
 
   <!-- end .header --></div>
 
@@ -26,17 +26,16 @@
 <% @todos.each do |todo| %>
 
 
-    <li><%= "Subject: " %><%= todo.subject %></li>
-    <li><%= "Priority: " %><%= todo.priority %></li>
-    <li><%= "Description: " %><%= todo.description %></li>
+    <li><%=  link_to  todo.subject ,todo %></li>
+
+
+
 
     <div data-role="navbar"  data-inset="true">
 
     <ul>
 
-    <li><%= link_to 'Show', todo %>  </li>
 
-    <li><%= link_to 'Edit', edit_todo_path(todo)%></li>
 
     <li><%= link_to 'Delete', todo, method: :delete, data: { confirm: 'Are you sure?' } %> </li>
     </ul>

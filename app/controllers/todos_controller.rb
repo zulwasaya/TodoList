@@ -8,7 +8,9 @@ class TodosController < ApplicationController
 
 #   @todos = Todo.all
     # Get all Todo lists related to user where the primary key of User record is in session[:user_id]
-    @todos = User.find(session[:user_id]).todos
+    @todos = User.find(session[:user_id]).todos.scoped
+    @todos = @todos.order(:priority)
+
 
     respond_to do |format|
       format.html # index.html.erb
@@ -16,9 +18,23 @@ class TodosController < ApplicationController
     end
   end
 
+# list all todos for a particular subject
+  def subjecttodos
+
+#   @todos = Todo.all
+# Get all Todo lists related to user where the primary key of User record is in session[:user_id]
+    @todos = User.find(session[:user_id]).todos
+
+    respond_to do |format|
+      format.html # subjecttodos.html.erb
+      format.json { render json: @todos }
+    end
+  end
+
   # GET /todos/1
   # GET /todos/1.json
   def show
+    $current_todo=params[:id]
     @todo = Todo.find(params[:id])
 
     respond_to do |format|
@@ -32,7 +48,7 @@ class TodosController < ApplicationController
   def new
 
     @todo = Todo.new
-    @todo.user_id= session[:user_id]
+#    @todo.user_id= session[:user_id]
 
     respond_to do |format|
       format.html # new.html.erb
@@ -55,8 +71,6 @@ class TodosController < ApplicationController
       if @todo.save
 
         format.html { redirect_to @todo, notice: 'Todo was successfully created.' }
-# temp change from @todo to todos_url to fix problem with jquery and show
-#        format.html { redirect_to todos_url, notice: 'Todo was successfully created.' }
         format.json { render json: @todo, status: :created, location: @todo }
       else
         format.html { render action: "new" }

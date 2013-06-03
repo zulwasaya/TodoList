@@ -3,20 +3,20 @@
 <div data-role="header">
 
 
-  <h1><%=if $name
-           $name.capitalize
-         end
-  %> Todos Show</h1>
+
+  <h1> Todolists for <%= @todo.subject %></h1>
 
   <%= link_to 'Back', todos_path, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
   <%= link_to 'Edit',  edit_todo_path(@todo), {"data-icon" =>"star", "class" => "ui-btn-right"} %>
   <!-- end .header --></div>
 
-<div data-role="content" data-theme="b" data-transition= "flip">
-  <ul  data-inset="true" data-theme="a">
+<div data-role="content" data-theme="e" data-transition= "flip">
+  <ul data-role="listview" data-filter="true" data-inset="true" data-theme="b">
 
 
 <p id="notice"><%= notice %></p>
+
+
 
 <p>
   <b>Subject:</b>
@@ -34,7 +34,26 @@
 </p>
 
 
+  <% @todo.todolists.each do |list| %>
+    <li>
+      <%= link_to list.task, list %>
+    </li>
+   <% end %>
 
+
+    <div data-role="navbar"  data-iconpos="top" >
+
+      <ul>
+
+        <li> <%= link_to 'Add TodoList', new_todolist_path, "data-icon"=>"plus" %></li>
+
+
+        <li><%= link_to 'List All Todolists', todolists_path, "data-icon"=>"refresh" %> </li>
+
+
+      </ul>
+
+    </div>
 
 </ul>
   <!-- end .content --></div>
