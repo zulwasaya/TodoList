@@ -5,10 +5,11 @@ class TodolistsController < ApplicationController
 #    @todolists = Todolist.all
 #    @todolists = User.find(session[:user_id]).todos.todolists
 #   list all todolists of current todo
-    @todolists = Todolist.where(:todo_id  => $current_todo)
+    @todolists = Todolist.where(:todo_id  => $current_todo).order(:priority)
 
 
-    @todolists = @todolists.order(:priority)
+
+#    @todolists = @todolists.order(:priority)
 
 
 
@@ -55,7 +56,7 @@ class TodolistsController < ApplicationController
 
     respond_to do |format|
       if @todolist.save
-        format.html { redirect_to @todolist, notice: 'Todolist was successfully created.' }
+        format.html { redirect_to @todolist, notice: 'Task was successfully created.' }
         format.json { render json: @todolist, status: :created, location: @todolist }
       else
         format.html { render action: "new" }
@@ -71,7 +72,7 @@ class TodolistsController < ApplicationController
 
     respond_to do |format|
       if @todolist.update_attributes(params[:todolist])
-        format.html { redirect_to @todolist, notice: 'Todolist was successfully updated.' }
+        format.html { redirect_to @todolist, notice: 'Task was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

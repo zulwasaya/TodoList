@@ -4,7 +4,7 @@
 
 
 
-  <h1> Todolists for <%= @todo.subject %></h1>
+  <h1> Tasks for <%= @todo.subject %></h1>
 
   <%= link_to 'Back', todos_path, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
   <%= link_to 'Edit',  edit_todo_path(@todo), {"data-icon" =>"star", "class" => "ui-btn-right"} %>
@@ -45,10 +45,10 @@
 
       <ul>
 
-        <li> <%= link_to 'Add TodoList', new_todolist_path, "data-icon"=>"plus" %></li>
+        <li> <%= link_to 'Add Task', new_todolist_path, "data-icon"=>"plus" %></li>
 
 
-        <li><%= link_to 'List All Todolists', todolists_path, "data-icon"=>"refresh" %> </li>
+        <li><%= link_to 'List All Tasks', todolists_path, "data-icon"=>"refresh" %> </li>
 
 
       </ul>
