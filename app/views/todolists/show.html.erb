@@ -4,7 +4,7 @@
 
 
 
-  <h1> Show Todolist for <%= @todolist.task %></h1>
+  <h1> Tasks for <%= @todolist.task %></h1>
 
   <%= link_to 'Back', @todolist.todo, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
   <%= link_to 'Edit',  edit_todolist_path(@todolist), {"data-icon" =>"star", "class" => "ui-btn-right"} %>
