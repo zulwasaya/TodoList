@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dad1ab-c355-459f-9480-aecc6b75bca5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/todo.rb" afterPath="$PROJECT_DIR$/app/models/todo.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/todolist.rb" afterPath="$PROJECT_DIR$/app/models/todolist.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/todolists_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/todolists_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/todos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/todos_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370280285835" ignored="false" />
+    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370359219764" ignored="false" />
     <file path="/Gemfile" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365154313608" ignored="false" />
     <file path="/omnipopulus.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365159063572" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/initializers/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365275975184" ignored="false" />
@@ -17,7 +19,7 @@
     <file path="/index.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369926502976" ignored="false" />
     <file path="/user.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1366421132258" ignored="false" />
     <file path="/routes.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369584406622" ignored="false" />
-    <file path="/Ruby Console" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370278374208" ignored="false" />
+    <file path="/Ruby Console" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370358388637" ignored="false" />
     <file path="/todo.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369849123429" ignored="false" />
     <file path="/new.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368908064045" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/routes.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204227411" ignored="false" />
@@ -28,7 +30,7 @@
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/app/views/sessions/new.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1367204918899" ignored="false" />
     <file path="/application.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369925782534" ignored="false" />
     <file path="/new - Copy.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368553472724" ignored="false" />
-    <file path="/fragment.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370279368104" ignored="false" />
+    <file path="/fragment.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370358171664" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/log/development.log" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368575890498" ignored="false" />
     <file path="/_form.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369157014721" ignored="false" />
     <file path="/show.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369933379708" ignored="false" />
@@ -65,7 +67,7 @@
     <file path="/list.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369837637174" ignored="false" />
     <file path="/todolist.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370281245470" ignored="false" />
     <file path="/20130529173333_add_todo_id_to_todolists.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369849297167" ignored="false" />
-    <file path="/todolists_controller.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370277689814" ignored="false" />
+    <file path="/todolists_controller.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370357986204" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,19 +87,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/todos/show.html.erb">
+      <file leaf-file-name="todolists_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/todolists_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="33" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.053968254">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todolists_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/todolists_controller.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/todolists/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
+            <state line="31" column="24" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +108,7 @@
       <file leaf-file-name="todos_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="1" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
+            <state line="39" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todolist.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="todolist.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/todolist.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.16190477">
+            <state line="3" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,19 +159,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/todolists/_form.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/todolists/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="41" column="16" selection-start="744" selection-end="831" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/todolists/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="16" selection-start="744" selection-end="831" vertical-scroll-proportion="0.0">
+            <state line="14" column="2" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,10 +211,10 @@
         <option value="$PROJECT_DIR$/app/views/todolists/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todolists/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todos/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/todos_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/todolists_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/todo.rb" />
         <option value="$PROJECT_DIR$/app/models/todolist.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/todos_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/todolists_controller.rb" />
       </list>
     </option>
   </component>
@@ -255,7 +257,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -564,7 +566,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1071,7 +1073,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2783688" sideWeight="0.6351575" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2996454" sideWeight="0.6351575" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4742952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1153,18 +1155,13 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="17" />
+      <option name="time" value="28" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/todolists/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="213" selection-end="213" vertical-scroll-proportion="2.6153846" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
@@ -1174,30 +1171,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todolists/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todolists/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todolists/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todolists/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="16" selection-start="744" selection-end="831" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sqlite3-1.3.7-x86-mingw32/lib/sqlite3/database.rb">
@@ -1207,28 +1186,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="33" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="1" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="50" column="33" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/todolists_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1256,7 +1219,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/todolist.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.16190477">
+        <state line="3" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todolists/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="16" selection-start="744" selection-end="831" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todolists/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="24" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/todolists_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.053968254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="2" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

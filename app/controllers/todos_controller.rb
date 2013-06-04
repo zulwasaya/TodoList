@@ -48,7 +48,7 @@ class TodosController < ApplicationController
   def new
 
     @todo = Todo.new
-#    @todo.user_id= session[:user_id]
+
 
     respond_to do |format|
       format.html # new.html.erb
