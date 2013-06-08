@@ -2,10 +2,8 @@
 <div data-role="header">
 
 
-  <h1><%=if $name
-           $name.capitalize
-         end
-  %> Todos Edit</h1>
+
+  <h1> Edit Subject</h1>
 
   <%= link_to 'Back', todos_path, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
   <%= link_to 'Show', @todo, {"data-icon" =>"star", "class" => "ui-btn-right"} %>

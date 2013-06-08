@@ -88,7 +88,7 @@ class TodolistsController < ApplicationController
     @todolist.destroy
 
     respond_to do |format|
-      format.html { redirect_to todolists_url }
+      format.html { redirect_to todo_url($current_todo) }
       format.json { head :no_content }
     end
   end
