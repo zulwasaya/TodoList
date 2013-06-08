@@ -26,7 +26,7 @@
          <li> <%= link_to 'Add Subject', new_todo_path, "data-icon"=>"plus" %></li>
 
 
-         <li><%= link_to 'List Subjects', todos_path, "data-icon"=>"refresh" %> </li>
+         <li><%= link_to 'List Subjects', todos_path, "data-ajax" =>"false", "data-icon"=>"refresh" %> </li>
 
          <li><%= link_to 'Logout', logout_path, "data-icon" =>"back" %></li>
 

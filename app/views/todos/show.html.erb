@@ -6,7 +6,7 @@
 
   <h1> <%= @todo.subject %> tasks</h1>
 
-  <%= link_to 'Back', todos_path, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
+  <%= link_to 'Back', todos_path, {"data-icon" =>"back", "data-ajax" =>"false", "class" => "ui-btn-left"} %>
   <%= link_to 'Edit',  edit_todo_path(@todo), {"data-icon" =>"star", "class" => "ui-btn-right"} %>
   <!-- end .header --></div>
 
