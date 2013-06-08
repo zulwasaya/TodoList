@@ -1,6 +1,20 @@
-<h1>Editing task</h1>
+<div data-role="header">
+
+
+
+  <h1> Edit Task</h1>
+
+  <%= link_to 'Back', @todolist.todo, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
+  <%= link_to 'Show', @todolist, {"data-icon" =>"star", "class" => "ui-btn-right"} %>
+  <!-- end .header --></div>
+
+<div data-role="content" data-theme="b" data-transition= "flip">
+  <ul data-role="listview"  data-inset="true" data-theme="a">
+
+
+
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @todolist.todo %> |
-<%= link_to 'Back', @todolist.todo %>
+  </ul>
+  <!-- end .content --></div>
