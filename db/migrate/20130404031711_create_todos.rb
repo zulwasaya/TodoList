@@ -3,7 +3,7 @@ class CreateTodos < ActiveRecord::Migration
     create_table :todos do |t|
       t.belongs_to :user
       t.string :subject
-      t.integer :priority
+      t.integer :priority, :default => 1
       t.text :description
 
       t.timestamps
