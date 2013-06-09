@@ -8,6 +8,18 @@
 
   <%= link_to 'Back', @todolist.todo, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
   <%= link_to 'Edit',  edit_todolist_path(@todolist), {"data-icon" =>"star", "class" => "ui-btn-right"} %>
+  <div data-role="navbar"  data-iconpos="top" >
+
+    <ul>
+
+      <li> <%= link_to 'Add Task', new_todolist_path, "data-icon"=>"plus" %></li>
+      <li><%= link_to 'Delete Task', @todolist, method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus" %></li>
+
+    </ul>
+
+  </div>
+
+
   <!-- end .header --></div>
 
 <div data-role="content" data-theme="e" data-transition= "flip">
@@ -29,7 +41,7 @@
 <p><b> Subject: </b>
 <%= link_to @todolist.todo.subject , @todolist.todo %> </p>
 
- <li><%= link_to 'Delete Task', @todolist, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+
 </ul>
 <!-- end .content --></div>
 

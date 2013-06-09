@@ -7,7 +7,19 @@
   <h1> <%= @todo.subject %> tasks</h1>
 
   <%= link_to 'Back', todos_path, {"data-icon" =>"back", "data-ajax" =>"false", "class" => "ui-btn-left"} %>
-  <%= link_to 'Edit',  edit_todo_path(@todo), {"data-icon" =>"star", "class" => "ui-btn-right"} %>
+
+
+  <div data-role="navbar"  data-iconpos="top" >
+
+    <ul>
+
+      <li> <%= link_to 'Add Task', new_todolist_path, "data-icon"=>"plus" %></li>
+      <li><%= link_to 'Edit Subject',  edit_todo_path(@todo), {"data-icon" =>"star"} %></li>
+      <li><%= link_to 'Delete Subject ', todo_path(@todo), method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus"  %> </li>
+    </ul>
+
+  </div>
+
   <!-- end .header --></div>
 
 <div data-role="content" data-theme="e" data-transition= "flip">
@@ -38,20 +50,6 @@
     </li>
    <% end %>
 
-
-    <div data-role="navbar"  data-iconpos="top" >
-
-      <ul>
-
-        <li> <%= link_to 'Add Task', new_todolist_path, "data-icon"=>"plus" %></li>
-
-
-
-
-
-      </ul>
-
-    </div>
 
 </ul>
   <!-- end .content --></div>
