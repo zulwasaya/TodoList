@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dad1ab-c355-459f-9480-aecc6b75bca5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/todos/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todolists/show.html.erb" afterPath="$PROJECT_DIR$/app/views/todolists/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/todos/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370740746198" ignored="false" />
+    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370743835211" ignored="false" />
     <file path="/Gemfile" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365154313608" ignored="false" />
     <file path="/omnipopulus.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365159063572" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/initializers/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365275975184" ignored="false" />
@@ -32,7 +32,7 @@
     <file path="/fragment.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370371283941" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/log/development.log" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1368575890498" ignored="false" />
     <file path="/_form.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369157014721" ignored="false" />
-    <file path="/show.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370743553846" ignored="false" />
+    <file path="/show.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370744589553" ignored="false" />
     <file path="/edit.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370730076998" ignored="false" />
     <file path="/new.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370729289938" ignored="false" />
     <file path="$PROJECT_DIR$/../../ZulsBookmarks/zulsbookmarks/app/views/layouts/application.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369417040426" ignored="false" />
@@ -95,19 +95,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/todolists/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="106" selection-start="508" selection-end="530" vertical-scroll-proportion="-5.923077">
+            <state line="15" column="97" selection-start="506" selection-end="506" vertical-scroll-proportion="0.5167785">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/todos/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="10" selection-start="576" selection-end="576" vertical-scroll-proportion="0.8013468">
+            <state line="20" column="10" selection-start="576" selection-end="576" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
@@ -152,7 +152,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="42" selection-start="539" selection-end="632" vertical-scroll-proportion="-1.3076923">
+            <state line="29" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="-2.8076923">
               <folding />
             </state>
           </provider>
@@ -206,14 +206,14 @@
         <option value="$PROJECT_DIR$/app/controllers/todos_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/todos/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/todolists_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/todos/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todos/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todolists/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todolists/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todolists/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/todolists/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todos/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/todos/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/todolists/show.html.erb" />
       </list>
     </option>
   </component>
@@ -225,9 +225,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="11" />
-    <option name="width" value="1293" />
+    <option name="x" value="46" />
+    <option name="y" value="2" />
+    <option name="width" value="1145" />
     <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1069,7 +1069,11 @@
       <created>1370732156844</created>
       <updated>1370732156844</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="edited show templates for todo todolists">
+      <created>1370743854254</created>
+      <updated>1370743854254</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1093,24 +1097,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="11" width="1293" height="737" extended-state="0" />
+    <frame x="46" y="2" width="1145" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23233144" sideWeight="0.6351575" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32409972" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4742952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36484244" sideWeight="0.99918765" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36484244" sideWeight="0.99918765" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.99907666" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1158,7 +1162,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added data-ajax=&quot;false&quot; in 2 places" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited show templates for todo todolists" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1180,6 +1184,7 @@
     <MESSAGE value="Updated return logic after deletion of task" />
     <MESSAGE value="updating logic after edit and new tasks" />
     <MESSAGE value="added data-ajax=&quot;false&quot; in 2 places" />
+    <MESSAGE value="edited show templates for todo todolists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1277,23 +1282,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todos/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="576" selection-end="576" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="42" selection-start="539" selection-end="632" vertical-scroll-proportion="-1.3076923">
+        <state line="29" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="-2.8076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todolists/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="106" selection-start="508" selection-end="530" vertical-scroll-proportion="-5.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todos/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="576" selection-end="576" vertical-scroll-proportion="0.8013468">
+        <state line="15" column="97" selection-start="506" selection-end="506" vertical-scroll-proportion="0.5167785">
           <folding />
         </state>
       </provider>
