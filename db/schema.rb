@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(:version => 20130529173333) do
   end
 
   create_table "todolists", :force => true do |t|
-    t.string   "task"
+    t.text     "task"
     t.integer  "priority",   :default => 1
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
@@ -32,10 +32,9 @@ ActiveRecord::Schema.define(:version => 20130529173333) do
   create_table "todos", :force => true do |t|
     t.integer  "user_id"
     t.string   "subject"
-    t.integer  "priority",    :default => 1
-    t.text     "description"
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.integer  "priority",   :default => 1
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
   create_table "users", :force => true do |t|
