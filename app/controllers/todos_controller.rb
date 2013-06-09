@@ -2,6 +2,14 @@ class TodosController < ApplicationController
 # Check that the user is logged in
   before_filter :check_login_status!
 
+
+  def about
+    respond_to do |format|
+      format.html # about.html.erb
+      format.json {  head :no_content  }
+    end
+  end
+
   # GET /todos
   # GET /todos.json
   def index

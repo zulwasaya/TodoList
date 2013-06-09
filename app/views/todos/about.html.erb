@@ -1,0 +1,30 @@
+
+</head>
+<div data-role="header">
+
+
+<p><%=if $name
+         $name.capitalize
+       end
+%> Todos Subjects</p>
+
+<p>Logged in through <%=if $provider
+                           $provider.capitalize end %></p>
+
+
+
+
+  <!-- end .header --></div>
+
+
+
+<div data-role="content" data-theme="b" data-transition= "flip" >
+
+  <ul data-role="listview" data-filter="true" data-inset="true" data-theme="e">
+    <li> <h1>Zuls Todolist App</h1></li>
+    <li> This flexible app maitains multiple lists ( or tasks) per subject. </li>
+    <li> Each subject and task also has priority associated with it.</li>
+ </ul>
+
+
+  <!-- end .content --></div>

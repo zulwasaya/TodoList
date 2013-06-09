@@ -11,7 +11,7 @@
   <div data-role="navbar"  data-iconpos="top" >
 
     <ul>
-
+      <li><%= link_to 'List Tasks', @todolist.todo, {"data-icon" =>"refresh"} %></li>
       <li> <%= link_to 'Add Task', new_todolist_path, "data-icon"=>"plus" %></li>
       <li><%= link_to 'Edit Task',  edit_todolist_path(@todolist), {"data-icon" =>"star"} %></li>
       <li><%= link_to 'Delete Task', @todolist, method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus" %></li>
