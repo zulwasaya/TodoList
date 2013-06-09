@@ -7,7 +7,7 @@
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370805949553" ignored="false" />
+    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370807075982" ignored="false" />
     <file path="/Gemfile" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365154313608" ignored="false" />
     <file path="/omnipopulus.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365159063572" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/initializers/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365275975184" ignored="false" />
@@ -66,7 +66,7 @@
     <file path="/todolist.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370791860973" ignored="false" />
     <file path="/20130529173333_add_todo_id_to_todolists.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1369849297167" ignored="false" />
     <file path="/todolists_controller.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370706940937" ignored="false" />
-    <file path="/about.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370807007358" ignored="false" />
+    <file path="/about.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370807582670" ignored="false" />
     <file path="/20130529145510_create_todolists.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370803562877" ignored="false" />
     <file path="/_newform.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370804755452" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,7 +100,7 @@
       <file leaf-file-name="about.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/todos/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="29" selection-start="616" selection-end="616" vertical-scroll-proportion="0.9967742">
+            <state line="25" column="73" selection-start="586" selection-end="586" vertical-scroll-proportion="0.4186747">
               <folding />
             </state>
           </provider>
@@ -1129,7 +1129,11 @@
       <created>1370805970000</created>
       <updated>1370805970000</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="changed priority to default to 1">
+      <created>1370807094558</created>
+      <updated>1370807094558</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1161,12 +1165,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30403227" sideWeight="0.6351575" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30403227" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4742952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36484244" sideWeight="0.999183" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.99907666" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36484244" sideWeight="0.999183" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.99907666" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1218,7 +1222,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed description from todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed priority to default to 1" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1245,6 +1249,7 @@
     <MESSAGE value="added about route and about template" />
     <MESSAGE value="changed not to have to input priority for tasks and subjects, defualts to 1" />
     <MESSAGE value="removed description from todo" />
+    <MESSAGE value="changed priority to default to 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1362,7 +1367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="616" selection-end="616" vertical-scroll-proportion="0.9967742">
+        <state line="25" column="73" selection-start="586" selection-end="586" vertical-scroll-proportion="0.4186747">
           <folding />
         </state>
       </provider>
