@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dad1ab-c355-459f-9480-aecc6b75bca5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todolists/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/todolists/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todos/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/todos/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todos/about.html.erb" afterPath="$PROJECT_DIR$/app/views/todos/about.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370795742463" ignored="false" />
+    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370796081184" ignored="false" />
     <file path="/Gemfile" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365154313608" ignored="false" />
     <file path="/omnipopulus.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365159063572" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/initializers/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365275975184" ignored="false" />
@@ -100,7 +98,7 @@
       <file leaf-file-name="about.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/todos/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="24" selection-start="611" selection-end="611" vertical-scroll-proportion="0.44879517">
+            <state line="26" column="20" selection-start="607" selection-end="607" vertical-scroll-proportion="0.44879517">
               <folding />
             </state>
           </provider>
@@ -1108,7 +1106,11 @@
       <created>1370795750692</created>
       <updated>1370795750692</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="changed not to have to input priority for tasks and subjects, defualts to 1">
+      <created>1370796087210</created>
+      <updated>1370796087210</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1340,7 +1342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="611" selection-end="611" vertical-scroll-proportion="0.44879517">
+        <state line="26" column="20" selection-start="607" selection-end="607" vertical-scroll-proportion="0.44879517">
           <folding />
         </state>
       </provider>
