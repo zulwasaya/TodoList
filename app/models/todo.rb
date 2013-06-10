@@ -4,6 +4,5 @@ class Todo < ActiveRecord::Base
 
   validates_presence_of :subject
 
-
   has_many :todolists
 end
