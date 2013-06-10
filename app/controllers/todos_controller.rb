@@ -2,7 +2,8 @@ class TodosController < ApplicationController
 # Check that the user is logged in
   before_filter :check_login_status!
 
-
+# GET /about
+# GET /about.json
   def about
     respond_to do |format|
       format.html # about.html.erb
@@ -26,18 +27,6 @@ class TodosController < ApplicationController
     end
   end
 
-# list all todos for a particular subject
-  def subjecttodos
-
-#   @todos = Todo.all
-# Get all Todo lists related to user where the primary key of User record is in session[:user_id]
-    @todos = User.find(session[:user_id]).todos
-
-    respond_to do |format|
-      format.html # subjecttodos.html.erb
-      format.json { render json: @todos }
-    end
-  end
 
   # GET /todos/1
   # GET /todos/1.json

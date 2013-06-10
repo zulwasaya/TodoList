@@ -40,7 +40,7 @@
 
 
 
-  <% @todo.todolists.each do |list| %>
+  <% @todo.todolists.order(:priority).each do |list| %>
     <li>
       <%= link_to list.task, list %>
     </li>

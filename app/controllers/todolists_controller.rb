@@ -5,11 +5,11 @@ class TodolistsController < ApplicationController
 #    @todolists = Todolist.all
 #    @todolists = User.find(session[:user_id]).todos.todolists
 #   list all todolists of current todo
-    @todolists = Todolist.where(:todo_id  => $current_todo).order(:priority)
+    @todolists = Todolist.where(:todo_id  => $current_todo)
 
 
 
-#    @todolists = @todolists.order(:priority)
+    @todolists = @todolists.order(:priority)
 
 
 
