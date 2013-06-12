@@ -1,0 +1,15 @@
+<h1>The following Todo list has been created!</h1>
+
+<p>Hi, how are you? Just wanted to let you know that I have created
+the following list for your consideration.</p>
+
+<h2> Todo  <%= @todo.subject %></h2>
+<blockquote>
+
+  <% @todo.todolists.order(:priority).each do |list| %>
+      <li>
+        <%=list.task%>     Priority= <%=list.priority %>
+      </li>
+  <% end %>
+</blockquote>
+<h2> Todo  END</h2>

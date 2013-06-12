@@ -9,6 +9,8 @@ TodoList::Application.routes.draw do
   match '/auth/failure', :to => 'sessions#failure'
   get '/logout', :to => 'sessions#destroy'
   get '/about', :to => 'todos#about'
+  match '/mailtodo', :to => 'todos#mailtodo'
+  match '/emailform' => 'todos#emailform'
 
 
 

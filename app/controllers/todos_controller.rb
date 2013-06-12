@@ -2,6 +2,32 @@ class TodosController < ApplicationController
 # Check that the user is logged in
   before_filter :check_login_status!
 
+  def emailform
+
+    respond_to do |format|
+      format.html # emailform.html.erb
+      format.json { head :no_content }
+    end
+  end
+
+# GET /mailtodo
+# GET /mailtodo.json
+  def mailtodo
+    @email_string="#{params[:email_string]}"
+# Mail the current Todo
+    @todo = Todo.find($current_todo)
+    TodoMailer.todo_created(@todo,@email_string).deliver
+
+    @todos = User.find(session[:user_id]).todos.scoped
+    @todos = @todos.order(:priority)
+
+    respond_to do |format|
+      format.html { render :index }
+      format.json { render json: @todo }
+    end
+  end
+
+
 # GET /about
 # GET /about.json
   def about
@@ -33,6 +59,8 @@ class TodosController < ApplicationController
   def show
     $current_todo=params[:id]
     @todo = Todo.find(params[:id])
+
+#    TodoMailer.todo_created(@todo).deliver
 
     respond_to do |format|
       format.html # show.html.erb
