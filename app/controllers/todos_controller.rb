@@ -21,6 +21,7 @@ class TodosController < ApplicationController
     @todos = User.find(session[:user_id]).todos.scoped
     @todos = @todos.order(:priority)
 
+
     respond_to do |format|
       format.html { render :index }
       format.json { render json: @todo }

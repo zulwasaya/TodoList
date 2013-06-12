@@ -17,6 +17,7 @@
       <li><%= link_to 'Edit Subject',  edit_todo_path(@todo), {"data-icon" =>"star"} %></li>
       <li><%= link_to 'Delete Subject ', todo_path(@todo), method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus"  %> </li>
       <li><%= link_to 'Email Tasks',  emailform_path, {"data-icon" =>"grid", "data-ajax" =>"false"} %></li>
+
     </ul>
 
   </div>
