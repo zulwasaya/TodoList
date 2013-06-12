@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dad1ab-c355-459f-9480-aecc6b75bca5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371037233573" ignored="false" />
+    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371037717008" ignored="false" />
     <file path="/Gemfile" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365154313608" ignored="false" />
     <file path="/omnipopulus.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365159063572" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/initializers/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365275975184" ignored="false" />
@@ -73,7 +74,8 @@
     <file path="/todo_created.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370918949971" ignored="false" />
     <file path="/emailform.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371006230021" ignored="false" />
     <file path="/_formemail.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371006958632" ignored="false" />
-    <file path="/production.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371037210692" ignored="false" />
+    <file path="/production.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371039422569" ignored="false" />
+    <file path="/development.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371038168243" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +152,7 @@
       <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="2" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
+            <state line="19" column="56" selection-start="670" selection-end="1094" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,7 +161,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="2480" selection-end="2480" vertical-scroll-proportion="0.59882003">
+            <state line="68" column="77" selection-start="2582" selection-end="2582" vertical-scroll-proportion="0.3480826">
               <folding />
             </state>
           </provider>
@@ -193,7 +195,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20130529145510_create_todolists.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130404031711_create_todos.rb" />
         <option value="$PROJECT_DIR$/app/controllers/todolists_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/mailers/todo_mailer.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/todos_controller.rb" />
@@ -202,6 +203,7 @@
         <option value="$PROJECT_DIR$/app/views/todos/_formemail.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todos/emailform.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todos/show.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
@@ -214,8 +216,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="y" value="13" />
+    <option name="x" value="83" />
+    <option name="y" value="27" />
     <option name="width" value="1026" />
     <option name="height" value="737" />
   </component>
@@ -1256,7 +1258,11 @@
       <created>1371037240547</created>
       <updated>1371037240547</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="remved mailer config temporarily">
+      <created>1371037728201</created>
+      <updated>1371037728201</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1280,7 +1286,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="13" width="1026" height="737" extended-state="0" />
+    <frame x="83" y="27" width="1026" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1345,7 +1351,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added email" />
+    <option name="LAST_COMMIT_MESSAGE" value="remved mailer config temporarily" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1377,6 +1383,7 @@
     <MESSAGE value="deleted old files and refactor" />
     <MESSAGE value="sorted tasks by priority" />
     <MESSAGE value="added email" />
+    <MESSAGE value="remved mailer config temporarily" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1475,14 +1482,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="2" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
+        <state line="19" column="56" selection-start="670" selection-end="1094" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2480" selection-end="2480" vertical-scroll-proportion="0.59882003">
+        <state line="68" column="77" selection-start="2582" selection-end="2582" vertical-scroll-proportion="0.3480826">
           <folding />
         </state>
       </provider>

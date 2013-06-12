@@ -21,9 +21,11 @@ TodoList::Application.configure do
   config.action_mailer.smtp_settings = {
       :address=>"smtp.gmail.com",
       :port => 587,
+      :domain => "gmail.com",
       :user_name=>"digiserve.co.uk@gmail.com",
       :password =>"420arimin",
-      :authentication => :plain
+      :authentication => :plain,
+      :enable_starttls_auto => true
   }
 
   # Print deprecation notices to the Rails logger
