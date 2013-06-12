@@ -23,7 +23,7 @@ TodoList::Application.configure do
       :port => 587,
       :domain => "gmail.com",
       :user_name=>"digiserve.co.uk@gmail.com",
-      :password =>"420arimin",
+      :password =>"arimin420",
       :authentication => :plain,
       :enable_starttls_auto => true
   }

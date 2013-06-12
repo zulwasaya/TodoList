@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dad1ab-c355-459f-9480-aecc6b75bca5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371040597408" ignored="false" />
+    <file path="/Dummy.txt" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371040782868" ignored="false" />
     <file path="/Gemfile" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365154313608" ignored="false" />
     <file path="/omnipopulus.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365159063572" ignored="false" />
     <file path="$PROJECT_DIR$/../../IssueTracker/IssueTracker/config/initializers/omniauth.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1365275975184" ignored="false" />
@@ -73,8 +74,8 @@
     <file path="/todo_created.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1370918949971" ignored="false" />
     <file path="/emailform.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371006230021" ignored="false" />
     <file path="/_formemail.html.erb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371006958632" ignored="false" />
-    <file path="/production.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371040402508" ignored="false" />
-    <file path="/development.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371038168243" ignored="false" />
+    <file path="/production.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371041886401" ignored="false" />
+    <file path="/development.rb" changelist="43dad1ab-c355-459f-9480-aecc6b75bca5" time="1371041906481" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,19 +149,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="development.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="56" selection-start="670" selection-end="1094" vertical-scroll-proportion="0.0">
+            <state line="28" column="39" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.72727275">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="1" selection-start="2507" selection-end="2507" vertical-scroll-proportion="0.57894737">
+            <state line="78" column="28" selection-start="2934" selection-end="2934" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,8 +203,8 @@
         <option value="$PROJECT_DIR$/app/views/todos/_formemail.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todos/emailform.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todos/show.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
       </list>
     </option>
   </component>
@@ -1269,7 +1270,11 @@
       <created>1371040608120</created>
       <updated>1371040608120</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="corrected production config for mailer">
+      <created>1371040789227</created>
+      <updated>1371040789227</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1488,16 +1493,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="670" selection-end="1094" vertical-scroll-proportion="0.0">
+        <state line="78" column="28" selection-start="2934" selection-end="2934" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="1" selection-start="2507" selection-end="2507" vertical-scroll-proportion="0.57894737">
+        <state line="28" column="39" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.72727275">
           <folding />
         </state>
       </provider>
