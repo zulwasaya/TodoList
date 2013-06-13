@@ -1,0 +1,14 @@
+The following Todo list has been created!
+
+Hi, how are you? Just wanted to let you know that I have created
+the following list for your consideration.
+
+ Todo  <%= @todo.subject %>
+
+  <% @todo.todolists.order(:priority).each do |list| %>
+
+        <%=list.task%>     Priority= <%=list.priority %>
+
+  <% end %>
+
+ Todo  END
