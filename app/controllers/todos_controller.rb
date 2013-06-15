@@ -38,6 +38,19 @@ class TodosController < ApplicationController
     end
   end
 
+  def listalltasks
+
+#   @todos = Todo.all
+# Get all Todo lists related to user where the primary key of User record is in session[:user_id]
+    @todos = User.find(session[:user_id]).todos.scoped
+    @todos = @todos.order(:priority)
+
+
+    respond_to do |format|
+      format.html # listalltasks.html.erb
+      format.json { render json: @todos }
+    end
+  end
   # GET /todos
   # GET /todos.json
   def index

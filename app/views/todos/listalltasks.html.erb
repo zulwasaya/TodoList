@@ -1,0 +1,43 @@
+
+</head>
+<div data-role="header">
+
+
+<p><%=if $name
+         $name.capitalize
+       end
+%> List all Subjects and Tasks</p>
+
+<p>Logged in through <%=if $provider
+                           $provider.capitalize end %></p>
+
+
+
+
+  <!-- end .header --></div>
+
+
+
+<div data-role="content" data-theme="b" data-transition= "flip" >
+
+  <ul data-role="listview" data-filter="true" data-inset="true" data-theme="e">
+
+
+<% @todos.each do |todo| %>
+
+
+    <li>Subject:<%= link_to  todo.subject ,todo %></li>
+
+
+        <% todo.todolists.order(:priority).each do |list| %>
+            <li>
+              <%= link_to list.task, list %>
+            </li>
+
+        <% end %>
+
+<% end %>
+ </ul>
+
+
+  <!-- end .content --></div>

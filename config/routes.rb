@@ -10,7 +10,8 @@ TodoList::Application.routes.draw do
   get '/logout', :to => 'sessions#destroy'
   get '/about', :to => 'todos#about'
   match '/mailtodo', :to => 'todos#mailtodo'
-  match '/emailform' => 'todos#emailform'
+  match '/emailform', :to => 'todos#emailform'
+  match '/listalltasks', :to => 'todos#listalltasks'
 
 
 

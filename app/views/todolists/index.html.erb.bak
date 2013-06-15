@@ -1,0 +1,79 @@
+
+</head>
+<div data-role="header">
+
+
+  <p><%=if $name
+          $name.capitalize
+        end
+  %>  Task List </p>
+
+  <p>Logged in through <%=if $provider
+                            $provider.capitalize end %></p>
+
+
+
+
+  <!-- end .header --></div>
+
+
+
+<div data-role="content" data-theme="b" data-transition= "flip" >
+
+  <ul data-role="listview" data-filter="true" data-inset="true" data-theme="e">
+
+
+
+<table>
+  <tr>
+    <th>Task</th>
+    <th>Priority</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @todolists.each do |todolist| %>
+  <tr>
+    <td><%= todolist.task %></td>
+    <td><%= todolist.priority %></td>
+    <td><%= link_to 'Show', todolist %></td>
+    <td><%= link_to 'Edit', edit_todolist_path(todolist) %></td>
+    <td><%= link_to 'Destroy', todolist, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Todolist', new_todolist_path %>
+
+
+  </ul>
+
+
+  <!-- end .content --></div>
+
+<div data-role="footer">
+
+  <div data-role="navbar" data-position="fixed" data-iconpos="top" >
+
+    <ul>
+
+      <li> <%= link_to 'Add Items', new_todolist_path, "data-icon"=>"plus" %></li>
+
+
+      <li><%= link_to 'List Items', todolists_path, "data-icon"=>"refresh" %> </li>
+
+      <li><%= link_to 'Logout', logout_path, "data-icon" =>"back" %></li>
+
+      <li> <a href="#"data-icon="info"> About</a></li>
+
+    </ul>
+
+  </div>
+
+
+
+
+  <!-- end .footer --></div>

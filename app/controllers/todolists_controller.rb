@@ -2,14 +2,17 @@ class TodolistsController < ApplicationController
   # GET /todolists
   # GET /todolists.json
   def index
-#    @todolists = Todolist.all
-#    @todolists = User.find(session[:user_id]).todos.todolists
+
+#   list all todolists of all users
+#    @todolists = Todolist.order(:priority).all
+
+#   list all todolists of the current logged in user
+#    @todolists = User.find(session[:user_id]).todos.todolists.all
+
+
 #   list all todolists of current todo
-    @todolists = Todolist.where(:todo_id  => $current_todo)
+   @todolists = Todolist.where(:todo_id  => $current_todo).order(:priority)
 
-
-
-    @todolists = @todolists.order(:priority)
 
 
 
