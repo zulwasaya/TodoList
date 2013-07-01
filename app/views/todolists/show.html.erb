@@ -7,15 +7,15 @@
   <h1> Task: <%= @todolist.task %></h1>
   <p> Subject:<%= @todolist.todo.subject%>    Priority: <%=@todolist.todo.priority %></p>
 
-  <%= link_to 'Back', @todolist.todo, {"data-icon" =>"back", "class" => "ui-btn-left"} %>
-  <%= link_to 'Edit',  edit_todolist_path(@todolist), {"data-icon" =>"star", "class" => "ui-btn-right"} %>
+  <%= link_to 'Back', @todolist.todo, {"data-icon" =>"back", "class" => "ui-btn-left", "data-theme"=>"b"} %>
+  <%= link_to 'Edit',  edit_todolist_path(@todolist), {"data-icon" =>"star", "class" => "ui-btn-right", "data-theme"=>"b"} %>
   <div data-role="navbar"  data-iconpos="top" >
 
     <ul>
-      <li><%= link_to 'List Tasks', @todolist.todo, {"data-icon" =>"refresh"} %></li>
-      <li> <%= link_to 'Add Task', new_todolist_path, "data-icon"=>"plus" %></li>
-      <li><%= link_to 'Edit Task',  edit_todolist_path(@todolist), {"data-icon" =>"star"} %></li>
-      <li><%= link_to 'Delete Task', @todolist, method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus" %></li>
+      <li><%= link_to 'List Tasks', @todolist.todo, {"data-icon" =>"refresh", "data-theme"=>"b"} %></li>
+      <li> <%= link_to 'Add Task', new_todolist_path, "data-icon"=>"plus", "data-theme"=>"b" %></li>
+      <li><%= link_to 'Edit Task',  edit_todolist_path(@todolist), {"data-icon" =>"star", "data-theme"=>"b"} %></li>
+      <li><%= link_to 'Delete Task', @todolist, method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus", "data-theme"=>"b" %></li>
 
     </ul>
 
@@ -26,7 +26,7 @@
 
   <!-- end .header --></div>
 
-<div data-role="content" data-theme="b" data-transition= "flip">
+<div data-role="content" data-theme="e" data-transition= "flip">
   <ul  data-inset="true" data-theme="a">
 
 <p>

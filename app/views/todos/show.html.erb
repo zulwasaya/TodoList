@@ -8,7 +8,7 @@
 
 
 
-  <%= link_to 'Back', todos_path, {"data-icon" =>"back", "data-ajax" =>"false", "class" => "ui-btn-left"} %>
+  <%= link_to 'Back', todos_path, {"data-icon" =>"back", "data-ajax" =>"false", "class" => "ui-btn-left", "data-theme"=>"b"} %>
 
   <h1> Subject:<%= @todo.subject%> </br> Priority:<%= @todo.priority%></h1>
 
@@ -18,10 +18,10 @@
 
     <ul>
 
-      <li> <%= link_to 'Add Task', new_todolist_path, "data-icon"=>"plus" %></li>
-      <li><%= link_to 'Edit Subject',  edit_todo_path(@todo), {"data-icon" =>"star"} %></li>
-      <li><%= link_to 'Delete Subject ', todo_path(@todo), method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus"  %> </li>
-      <li><%= link_to 'Email Tasks',  emailform_path, {"data-icon" =>"grid", "data-ajax" =>"false"} %></li>
+      <li> <%= link_to 'Add Task', new_todolist_path, "data-icon"=>"plus", "data-theme"=>"b" %></li>
+      <li><%= link_to 'Edit Subject',  edit_todo_path(@todo), {"data-icon" =>"star", "data-theme"=>"b"} %></li>
+      <li><%= link_to 'Delete Subject ', todo_path(@todo), method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus" , "data-theme"=>"b" %> </li>
+      <li><%= link_to 'Email Tasks',  emailform_path, {"data-icon" =>"grid", "data-ajax" =>"false", "data-theme"=>"b"} %></li>
 
 
     </ul>
@@ -32,7 +32,7 @@
   <!-- end .header --></div>
 
 <div data-role="content" data-theme="e" data-transition= "flip">
-  <ul data-role="listview" data-filter="true" data-inset="true" data-theme="b">
+  <ul data-role="listview" data-filter="true" data-inset="true">
 
 
 
