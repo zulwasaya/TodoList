@@ -26,7 +26,10 @@
 <% @todos.each do |todo| %>
 
 
-    <li><%=  link_to  todo.subject ,todo %></li>
+    <li>
+      <%=  link_to  todo.subject ,todo %>
+      <span class="ui-li-count"> <%=todo.todolists.size%> </span>
+    </li>
 
 
 
