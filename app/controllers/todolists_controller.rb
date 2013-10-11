@@ -10,12 +10,8 @@ class TodolistsController < ApplicationController
 #    @todolists = User.find(session[:user_id]).todos.todolists.all
 
 
-#   list all todolists of current todo
-   @todolists = Todolist.where(:todo_id  => $current_todo).order(:priority)
-
-
-
-
+#   list all todolists by task of current todo
+   @todolists = Todolist.where(:todo_id  => $current_todo).order(:task)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -38,7 +34,7 @@ class TodolistsController < ApplicationController
   # GET /todolists/new.json
   def new
     @todolist = Todolist.new
-    @todolist.todo_id= $current_todo
+
 
     respond_to do |format|
       format.html # new.html.erb

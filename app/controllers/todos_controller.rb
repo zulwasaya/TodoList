@@ -43,7 +43,9 @@ class TodosController < ApplicationController
 #   @todos = Todo.all
 # Get all Todo lists related to user where the primary key of User record is in session[:user_id]
     @todos = User.find(session[:user_id]).todos.scoped
-    @todos = @todos.order(:priority)
+
+# Order list by subject
+    @todos = @todos.order(:subject)
 
 
     respond_to do |format|
@@ -58,7 +60,8 @@ class TodosController < ApplicationController
 #   @todos = Todo.all
     # Get all Todo lists related to user where the primary key of User record is in session[:user_id]
     @todos = User.find(session[:user_id]).todos.scoped
-    @todos = @todos.order(:priority)
+# Order list by subject
+    @todos = @todos.order(:subject)
 
 
     respond_to do |format|
