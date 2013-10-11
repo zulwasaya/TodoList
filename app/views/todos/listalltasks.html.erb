@@ -29,7 +29,7 @@
     <li>Subject:<%= link_to  todo.subject ,todo %></li>
 
 
-        <% todo.todolists.order(:priority).each do |list| %>
+        <% todo.todolists.order(:task).each do |list| %>
             <li>
               <%= link_to list.task, list %>
             </li>
