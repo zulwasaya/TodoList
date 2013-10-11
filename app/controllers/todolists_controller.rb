@@ -11,7 +11,9 @@ class TodolistsController < ApplicationController
 
 
 #   list all todolists by task of current todo
-   @todolists = Todolist.where(:todo_id  => $current_todo).order(:task)
+   @todolists = Todolist.where(:todo_id  => $current_todo)
+# Order list by subject
+   @todolists = @todolists.order(:task)
 
     respond_to do |format|
       format.html # index.html.erb
