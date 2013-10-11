@@ -12,7 +12,7 @@ class TodolistsController < ApplicationController
 
 #   list all todolists by task of current todo
    @todolists = Todolist.where(:todo_id  => $current_todo)
-# Order list by subject
+# Order list by task
    @todolists = @todolists.order(:task)
 
     respond_to do |format|
